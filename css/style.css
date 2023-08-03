@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    width: 1440px;
+    width: 100%;
     height: 770px;
     padding-top: 70px;
 }
