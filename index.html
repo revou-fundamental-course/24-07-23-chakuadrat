@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Saphira</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<!-- HEADER -->
+        <div class="helo"id="section1">
+            <nav>
+            <h2 class="logo"><button type="button"><a href="#section1">Saphira</a></button>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+            </h2>
+            <ul>
+                <li>
+                    <button type="button"><a href="#section1">Home</a></button>
+                </li>
+                <li>
+                    <button type="button"><a href="#section2">Our Package</a></button>
+                </li>
+                <li>
+                    <button type="button"><a href="#section3">Our Shuttle</a></button>
+                </li>
+                <li>
+                    <button type="button"><a href="#section4">Call Us</a></button>
+                </li>
+            </ul>
+        </nav>
+<!-- GAMBAR UTAMA -->
+        <h1> 
+            Exclusive Travel Agent's
+        </h1>
+        <h2>
+            Journey with Confidence
+        </h2>
+    </div>
+<!-- KONTEN -->
+    <div class="p1">
+        <!-- KONTEN 1 -->
+        <div class="container">
+            <!-- REVIEW -->
+            <div class="content-1">
+                <div class="slideshow">
+                    <div class="slide">
+                        <div class="review">
+                            <img src="pict/ripiu1.png">
+                            <h2>"Travelnya bersih, ac nya adem banget."</h2>
+                            <div class="user">
+                                <img src="pict/user.png">
+                                <p> Putra <br> Mahasiswa, 19 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="review">
+                            <img src="pict/ripiu2.png">
+                            <h2>"Kursi nyaman plus dapet bonus view cakep."</h2>
+                            <div class="user">
+                                <img src="pict/user2.png">
+                                <p>Dahlia <br> Karyawan Swasta, 27</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="review">
+                            <img src="pict/ripiu3.png">
+                            <h2>"Langganan saya dan anak saya, aman dan selalu tepat waktu"</h2>
+                            <div class="user">
+                                <img src="pict/user.png">
+                                <p>Safitri <br> Ibu Rumah Tangga, 34</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="review">
+                            <img src="pict/ripiu7.png">
+                            <h2>"Travel eksklusif, pelayanannya bintang lima."</h2>
+                            <div class="user">
+                                <img src="pict/user2.png">
+                                <p>Lintang <br> Mahasiswi, 21</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-container">
+                    <!-- NAVIGASI BUTTON -->
+                    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                </div>
+            </div>
+            <div class="content-2">
+                <!-- CONTACT -->
+                <div class="contact">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm" onsubmit="return validateForm()">
+                    <p> Silahkan mengisi format dibawah ini untuk mengetahui <br> layanan kami lebih lanjut. <br> <br> </p>
+                    <form id="contactForm" onsubmit="return validateForm()">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telepon">No. Telepon Whatsapp</label>
+                            <input type="telepon" id="telepon" name="telepon" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="combobox">Anda tertarik pada layanan apa? </label>
+                            <select id="combobox" name="combobox" required>
+                                <option value="">Pilih Layanan</option>
+                                <option value="Liburan">Paket Liburan</option>
+                                <option value="Travel">Perjalanan Antar Kota</option>
+                            </select>
+                        </div>
+                        <button type="submit">Send</button>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- KONTEN 2 -->
+        <div class="p2"id="section4">
+            <h1>Our Package</h1>
+        </div>
+        <div class="k1">
+            Paket Liburan Bersama Saphira
+        </div>
+        <div class="section">
+            <div class="left-package">
+                <div class="city">
+                    <h3>NEW!</h3>
+                    <img src="pict/karimun2.png">
+                    <div class="city-info">
+                        <h2>Karimun Jawa</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Laborum adipisci <br> ratione fugiat delectus? Mollitia beatae <br> ea aperiam, cupiditate saepe pariatur. <br> Commodi quaerat totam eligendi dicta <br> explicabo incidunt illum quo quisquam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-package">
+                <div class="city">
+                    <h4>FAVORITE!</h4>
+                    <img src="pict/dieng1.png">
+                    <div class="city-info">
+                        <h1>Dataran Tinggi Dieng</h1>
+                        <r>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Velit exercitationem <br> impedit eaque, deserunt qui debitis <br> necessitatibus quia ducimus provident <br> odio quo ipsum deleniti. Pariatur quo <br> modi rem placeat earum minus!</r>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="left-package2">
+                <div class="kota">
+                    <img src="pict/smrg.png">
+                    <div class="kota-info">
+                        <h2>Semarang</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Laborum adipisci <br> ratione fugiat delectus? Mollitia beatae <br> ea aperiam, cupiditate saepe pariatur. <br> Commodi quaerat totam eligendi dicta <br> explicabo incidunt illum quo quisquam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-package2">
+                <div class="kota">
+                    <img src="pict/solo2.png">
+                    <div class="kota-info">
+                        <h1>Surakarta</h1>
+                        <r>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Velit exercitationem <br> impedit eaque, deserunt qui debitis <br> necessitatibus quia ducimus provident <br> odio quo ipsum deleniti. Pariatur quo <br> modi rem placeat earum minus!</r>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section3"id="section2">
+            <div class="left-package3">
+                <div class="jogja">
+                    <img src="pict/jogja.png">
+                    <div class="jogja-info">
+                        <h2>Yogyakarta</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Laborum adipisci <br> ratione fugiat delectus? Mollitia beatae <br> ea aperiam, cupiditate saepe pariatur. <br> Commodi quaerat totam eligendi dicta <br> explicabo incidunt illum quo quisquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>          
+        <!-- KONTEN 3 -->
+        <div class="p2">
+            <h1>Our Shuttle</h1>
+        </div>
+        <div class="k1">
+            Rute dan Jadwal Keberangkatan Travel
+        </div>
+        <table>
+            <tr>
+                <th>Rute</th>
+                <th>Harga</th>
+                <th>Hari Operasional</th>
+                <th>Jam Operasional</th>
+                <th>Estimasi Waktu Tiba</th>
+            </tr>
+            <tr>
+                <td>Semarang - Surakarta</td>
+                <td>Rp90.000 </td>
+                <td>Senin - Minggu </td>
+                <td>04.00 - 21.00 (1 Jam Sekali) </td>
+                <td>2 Jam</td>
+            </tr>
+            <tr>
+                <td>Surakarta - Semarang</td>
+                <td>Rp90.000 </td>
+                <td>Senin - Minggu </td>
+                <td>04.00 - 21.00 (1 Jam Sekali) </td>
+                <td>2 Jam</td>
+            </tr>
+            <tr>
+                <td>Semarang - Yogyakarta</td>
+                <td>Rp110.000 </td>
+                <td>Senin - Minggu </td>
+                <td>04.00 - 21.00 (1 Jam Sekali) </td>
+                <td>4 Jam</td>
+            </tr>
+            <tr>
+                <td>Yogyakarta - Semarang</td>
+                <td>Rp110.000 </td>
+                <td>Senin - Minggu </td>
+                <td>04.00 - 21.00 (1 Jam Sekali) </td>
+                <td>4 Jam</td>
+            </tr>
+            <tr>
+                <td>Semarang - Tegal</td>
+                <td>Rp100.000 </td>
+                <td>Senin - Minggu </td>
+                <td>04.00 - 21.00 (1 Jam Sekali) </td>
+                <td>3 Jam </td>
+            </tr>
+            <tr>
+                <td>Tegal - Semarang</td>
+                <td>Rp100.000</td>
+                <td>Senin - Minggu </td>
+                <td>04.00 - 21.00 (1 Jam Sekali) </td>
+                <td>3 Jam </td>
+            </tr>
+            <tr>
+                <td>Semarang - Purwokerto</td>
+                <td>Rp120.000  </td>
+                <td>Senin - Minggu </td>
+                <td>04.00 - 21.00 (1 Jam Sekali) </td>
+                <td>4 Jam 30 Menit</td>
+            </tr>
+            <tr>
+                <td>Purwokerto - Semarang</td>
+                <td>Rp120.000 </td>
+                <td>Senin - Minggu </td>
+                <td>04.00 - 21.00 (1 Jam Sekali) </td>
+                <td>4 Jam 30 Menit</td>
+            </tr>
+        </table>
+        <div class="divider"id="section3"></div>
+        <!-- KONTEN 4 -->
+        <div class="n1">
+            Kenapa harus Saphira?
+        </div>
+        <div class="poin">
+            <div class="icon">
+                <img src="pict/icon1.png">
+                <p> Ramah </p>
+            </div>
+            <div class="icon">
+                <img src="pict/icon2.png">
+                <p> Nyaman </p>
+            </div>
+            <div class="icon">
+                <img src="pict/icon3.png">
+                <p> Aman </p>
+            </div>
+            <div class="icon">
+                <img src="pict/icon8.png">
+                <p> Tepat Waktu </p>
+            </div>
+            <div class="icon">
+                <img src="pict/icon4.png">
+                <p> Terjangkau </p>
+            </div>
+            <div class="icon">
+                <img src="pict/icon5.png">
+                <p> Terpercaya </p>
+            </div>
+            <div class="icon">
+                <img src="pict/icon6.png">
+                <p> Terintegrasi </p>
+            </div>
+        </div>
+        <!-- KONTEN 5 -->
+        <div class="n2">
+            Fasilitas Saphira
+        </div>
+        <section class="fasil">
+            <div class="left">
+                <div class="ganjil">
+                    <img src="pict/angka1.png">
+                    <t>Reservasi Online 24 jam</t>
+                </div>
+                <div class="ganjil">
+                    <img src="pict/angka3.png">
+                    <t>Reschedule Keberangkatan</t>
+                </div>
+                <div class="ganjil">
+                    <img src="pict/angka5.png">
+                    <t>Konfigurasi Kursi Nyaman</t>
+                </div>
+                <div class="ganjil">
+                    <img src="pict/angka7.png">
+                    <t>Wifi Gratis</t>
+                </div>
+                <div class="ganjil">
+                    <img src="pict/angka9.png">
+                    <t>GPS Tracking</t>
+                </div>
+            </div>
+            <div class="right">
+                <div class="genap">
+                    <img src="pict/angka2.png">
+                    <t>Travel Premium </t>
+                </div>
+                <div class="genap">
+                    <img src="pict/angka4.png">
+                    <t>Keberangkatan Setiap Jam</t>
+                </div>
+                <div class="genap">
+                    <img src="pict/angka6.png">
+                    <t>Snack dan Air Mineral</t>
+                </div>
+                <div class="genap">
+                    <img src="pict/angka8.png">
+                    <t>Charging Port</t>
+                </div>
+                <div class="genap">
+                    <img src="pict/angka10.png">
+                    <t>Sabuk Pengaman</t>
+                </div>
+            </div>
+        </section>
+    </div>
+<!-- FOOTER -->
+    <footer>
+        <div class="footer-section1">
+            <h1>Saphira</h1>
+            <h2>Exclusive Travel Agent's <br> <br> <br> <br>
+            <br> #JourneywithConfidence
+            </h2>
+        </div>
+        <div class="footer-section2"></div>
+        <div class="footer-section3">
+            <h1>Call Center</h1>
+            <h2>Telepon <br>
+                (0243) 857 900 <br> <br>
+                Pesan Whatsapp <br>
+                081 239 458 670  (Hanya Pesan) <br>
+            </h2>
+        </div>
+        <div class="footer-section4">
+            <h1>Social Media</h1>
+            <div class="sosmed">
+                <a href="https://www.facebook.com/">
+                    <img src="pict/2.png">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="pict/3.png">
+                </a>
+                <a href="https://twitter.com/">
+                    <img src="pict/1.png">
+                </a>
+            </div>
+        </div>
+    </footer>
+<!-- COPYRIGHT -->
+    <div class="cr">
+        <h1>© 2023 Saphira. All Rights Reserved</h1>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
